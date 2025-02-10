@@ -12,7 +12,6 @@ start by typing in the following commands in your terminal application:
 
     git clone <GITHUB_URL>
 
-
 This will will clone our project onto your local device. For this project, we will be pushing all changes to a secondary branch called "feature". This is because it will allow us to add changes to a test branch for the sake of unit testing before we merge our final changes into our projects "main" branch. Type:
 
     git checkout -b feature
