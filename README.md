@@ -29,9 +29,6 @@ For this project, we will be pushing all changes to a secondary branch called "f
 
     git checkout -b feature
 
-
-
-
                                                                     2. Adding and Pushing Changes
 
 To push all changes that you have made to your files (be careful before pushing!) type the following:
