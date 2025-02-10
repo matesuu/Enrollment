@@ -6,10 +6,13 @@ public class User
     private static int ID = 0; // static int to represent user ID;
     
 
-    public User()
+    public User() // user constructor
     {
-        ID+=1;
+        ID+=1;  // increments static ID by 1
     }
 
-    public 
+    public getID()
+    {
+        return ID; // returns ID
+    }
 }
