@@ -43,11 +43,11 @@ Pulling is the act of getting the latest changes from a branch into your local f
 When your code has been TESTED AND WORKS, we will then push the changes made onto our "feature" branch with our "main" branch.
 
     git checkout main
-    git pull origin main
+    git pull origin feature
     
     git add . --all
     git commit -m "<ENTER A COMMIT MESSAGE HERE>"
-    git push -u origin feature
+    git push -u origin main
 
 This will then cause the changes to appear onto our "main" branch and will be apart of the actual source code for our projects' final submission.
 
