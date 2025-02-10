@@ -4,7 +4,7 @@
 
 If you are unfamiliar to git or Github, here is a list of steps to start! Or Alternatively, you can clone the autogit automation utility by typing the following into your terminal:
 
-git clone https://github.com/matesuu/autogit.git
+    git clone https://github.com/matesuu/autogit.git
 
 
 From here, you can type the following into your terminal to move autogit into your usr/bin directory (macOS and Linux only):
@@ -47,6 +47,25 @@ If an error message along the lines of "could not push refs", type the following
 
 This should fix the issue.
 
+                                                                    3. Pulling from Branches
+
+Pulling is the act of getting the latest changes from a branch into your local folder repository. Type the following to pull
+
+    git pull origin feature
+
+
+                                                                    4. Merging with Main
+
+When your code has been TESTED AND WORKS, we will then push the changes made onto our "feature" branch with our "main" branch.
+
+    git add . --all
+    git commit -m "<ENTER A COMMIT MESSAGE HERE>"
+    git push -u origin feature
+
+This will then cause the changes to appear onto our "main" branch and will be apart of the actual source code for our projects' final submission.
+
+
+Hopefully this helps a bit. Please let me know if you have any further questions or suggestions regarding the project!
 
 
 
