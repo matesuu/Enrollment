@@ -1,4 +1,4 @@
-# GUIDELINES FOR PUSHING CHANGES
+# GUIDELINES FOR PUSHING COMMITS
 
 
 In order to consider whether or not you should push a given change to a file, first consider if all of the following criteria are met:
@@ -9,3 +9,5 @@ In order to consider whether or not you should push a given change to a file, fi
 4. If applicable, the set of unit tests given must be met.
 
 If any of the criteria listed above is not met, it is strongly discouraged that you not push to "main" given that it may disrupt workflow by replacing working code with a buggy and/or dysfunctional product.
+
+Important: For the sake of clarity and per the project requirements, commit messages should be descriptive of the change you are pushing to the repository. Therefore, in your messages you should briefly describe both the issue and the solution you have given.
