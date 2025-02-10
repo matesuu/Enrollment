@@ -10,9 +10,10 @@ If you are unfamiliar to git or Github, here is a list of steps to start!
 Assuming you have git installed (if not then refer to https://git-scm.com/book/en/v2/Getting-Started-Installing-Git),
 start by typing in the following commands in your terminal application:
 
-    git clone <GITHUB_URL> // clones our remote repository on Github.com to your local device
+    git clone <GITHUB_URL>
 
-For this project, we will be pushing all changes to a secondary branch called "feature". This is because it will allow us to add changes to a test branch for the sake of unit testing before we merge our final changes into our projects "main" branch. Type:
+
+This will will clone our project onto your local device. For this project, we will be pushing all changes to a secondary branch called "feature". This is because it will allow us to add changes to a test branch for the sake of unit testing before we merge our final changes into our projects "main" branch. Type:
 
     git checkout -b feature
 
